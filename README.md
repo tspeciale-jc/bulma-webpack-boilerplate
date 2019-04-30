@@ -18,7 +18,7 @@ To compile the site for produciton use, run `npm run build` which builds optimiz
 
 # Structure
 ```
-|-- Jumpcloud Security Website
+|-- Boilerplate
     |-- README.md
     |-- package-lock.json
     |-- package.json
@@ -43,13 +43,7 @@ To compile the site for produciton use, run `npm run build` which builds optimiz
         |           |-- social-icons.scss
         |-- partials
             |-- content
-            |   |-- gradient-hero.html
-            |   |-- guidelines-rules.html
-            |   |-- program-scope.html
-            |   |-- questions.html
-            |   |-- reporting.html
-            |   |-- responsible-disclosure-policy.html
-            |   |-- rewards.html
+            |   |-- content-block.html
             |-- layout
                 |-- footer.html
                 |-- navbar.html
