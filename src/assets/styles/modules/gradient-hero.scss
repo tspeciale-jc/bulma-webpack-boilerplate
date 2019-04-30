@@ -1,0 +1,23 @@
+.gradient-hero {
+    padding-top:80px;
+	.section {
+		padding-top:40px;
+	}
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(235,244,249,1) 100%);
+	color:#807F86;
+	min-height: 494px;
+
+	.content {
+		margin-top: auto;
+		h1 {
+			font-size:2.25em;
+		}
+		p {
+			line-height: 1.7em;
+			font-size:1.15em;
+		}
+	}
+    .hero-image {
+        text-align: center;
+    }
+}

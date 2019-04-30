@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+$jumpcloud-blue: #006cac;
+$primary: $jumpcloud-blue;
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+@import "~bulma";
+@import "./typography";
+@import "./modules/navbar";
+@import "./modules/gradient-hero";
+@import "./modules/social-icons";
+@import "./modules/footer";
+
+.container {
+	max-width:1030px;
+}
+
+body {
+    font-family: "lato", sans-serif;
+}

@@ -1,0 +1,16 @@
+.mk-svg-icon {
+  width: auto;
+  height: auto;
+  fill: #999C9E;
+
+  &:hover {
+	  fill: #ebebeb;
+  }
+}
+
+.social{
+	margin-top:4em;
+ 	a{
+		padding: 0 .5em;
+	}
+}

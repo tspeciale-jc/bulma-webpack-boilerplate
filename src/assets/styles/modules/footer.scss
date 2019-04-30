@@ -1,0 +1,37 @@
+footer.footer {
+	background-color:#3b434a;
+	.content {
+		color:#fff;
+		font-size:13px;
+	}
+	
+	h5 {
+		margin-top:2.5em;
+	}
+    .footer-links a {
+        line-height:2.5;
+    }
+}
+
+.footer-second-nav, .footer-second-nav a {
+	margin:1.25em .95em;
+	font-size:.95em;
+	color:#b9bbbf !important;
+    text-align: center;
+}
+
+@media only screen and (min-width:$tablet) {
+    footer.footer {
+        .footer-second-nav {
+            .footer-copyright {
+                text-align: left;
+            }
+            .footer-links{
+                text-align: right;
+                a {
+                    line-height: inherit;
+                }
+            }
+        }
+    }
+}

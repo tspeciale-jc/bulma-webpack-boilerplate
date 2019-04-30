@@ -1,0 +1,42 @@
+html {
+	font-size:16px;
+	font-family: "lato", sans-serif !important;
+}
+
+.content{ 
+	h2 {
+		color:$primary;
+	}
+
+	h5 {
+		font-size:1.5em;
+		color:#fff;
+	}
+
+	p {
+		color:#373541;
+	}
+
+	pre {
+		color:#fff;
+		background: #373541;
+    border-radius: 5px;
+	}
+}
+
+ul.content-list {
+	list-style: none;
+
+	li {
+		margin-top:1em;
+	}
+  
+  li::before {
+		content: "\2022";
+		color:$primary;
+		font-weight: bold; 
+	  display: inline-block; 
+	  width: 1em;
+	  margin-left: -1.1em;
+	}
+}
